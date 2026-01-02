@@ -4,7 +4,9 @@ def create_profile():
   profile["name"] = input("Enter your name: ")
   profile["age"] = input("Enter your age: ")
   profile["city"] = input("Enter your city: ")
-
+  hobby = input("Enter your hobby:")
+  profile["hobby"]= hobby
+ 
   return profile
 
 def display_profile(profile):
